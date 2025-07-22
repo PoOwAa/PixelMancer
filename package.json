@@ -1,6 +1,6 @@
 {
   "name": "pixelmancer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CLI tool to resize sprite images to multiple sizes.",
   "main": "bin/cli.js",
   "type": "module",
