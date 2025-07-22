@@ -1,0 +1,35 @@
+{
+  "name": "pixelmancer",
+  "version": "1.0.0",
+  "description": "A CLI tool to resize sprite images to multiple sizes.",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "pixelmancer": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoOwAa/PixelMancer.git"
+  },
+  "keywords": [
+    "sprite",
+    "resize",
+    "cli",
+    "images",
+    "pixelart"
+  ],
+  "author": "Raymund Ács",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoOwAa/PixelMancer/issues"
+  },
+  "homepage": "https://github.com/PoOwAa/PixelMancer#readme",
+  "dependencies": {
+    "imagemin": "^9.0.1",
+    "imagemin-pngquant": "^10.0.0",
+    "sharp": "^0.34.3"
+  }
+}
